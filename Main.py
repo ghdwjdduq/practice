@@ -43,3 +43,5 @@ if total > APT:
     print("%d원 차이로 동일 아저씨의 말씀이 맞습니다" % (total - APT))
 else:
     print("%d원 차이로 미란 아주머니의 말씀이 맞습니다" % (APT - total))
+
+print("I am not doing well enough")
