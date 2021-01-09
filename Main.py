@@ -45,3 +45,12 @@ else:
     print("%d원 차이로 미란 아주머니의 말씀이 맞습니다" % (APT - total))
 
 print("I am not doing well enough")
+
+
+# print_full_name 함수 정의
+def print_full_name(first_name,last_name):
+    print(last_name + ",", first_name)
+
+# 테스트 코드
+print_full_name("윤수", "이")
+print_full_name("수민", "이")
