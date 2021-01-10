@@ -54,3 +54,14 @@ def print_full_name(first_name,last_name):
 # 테스트 코드
 print_full_name("윤수", "이")
 print_full_name("수민", "이")
+
+#피보나치
+previous = 0
+current = 1
+i = 0
+while i < 20:
+    print(current)
+    temp = previous
+    previous = current
+    current = temp + current
+    i += 1
