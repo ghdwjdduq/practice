@@ -69,9 +69,9 @@ while i < 20:
 #구구단
 i = 1
 while i <= 9:
-    j = 1
-    while j <= 9:
-        result = i * j
-        print("%d * %d = %d" % (i, j, result) )
-        j += 1
+    l = 1
+    while l <= 9:
+        result = i * l
+        print("%d * %d = %d" % (i, l, result) )
+        l += 1
     i += 1
