@@ -75,3 +75,18 @@ while i <= 9:
         print("%d * %d = %d" % (i, l, result) )
         l += 1
     i += 1
+
+#필렌드롬
+def is_palindrome(word):
+    str_list = list(word)
+    for i in range((len(str_list) // 2)):
+        temp = str_list[i]
+        str_list[i] = str_list[-i-1]
+        str_list[-i-1] = temp
+    return str_list == list(word)
+
+print(is_palindrome("racecar"))
+print(is_palindrome("stars"))
+print(is_palindrome("토마토"))
+print(is_palindrome("kayak"))
+print(is_palindrome("hello"))
