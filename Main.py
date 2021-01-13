@@ -90,3 +90,11 @@ print(is_palindrome("stars"))
 print(is_palindrome("토마토"))
 print(is_palindrome("kayak"))
 print(is_palindrome("hello"))
+
+#odd or even
+def is_evenly_divisible(number):
+    return number % 2 == 0
+
+print(is_evenly_divisible(3))
+print(is_evenly_divisible(7))
+print(is_evenly_divisible(8))
