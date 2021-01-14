@@ -98,3 +98,9 @@ def is_evenly_divisible(number):
 print(is_evenly_divisible(3))
 print(is_evenly_divisible(7))
 print(is_evenly_divisible(8))
+
+#Practice While
+i = 100
+while i % 23 != 0:
+    i += 1
+print(i)
