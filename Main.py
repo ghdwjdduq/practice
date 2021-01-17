@@ -120,3 +120,7 @@ print("%d시간에 %0.1f%s 벌었습니다." % (1, wage * 1 * exchange_rate, "�
 
 # "5시간에 28554.0원 벌었습니다." 출력
 print("%d시간에 %0.1f%s 벌었습니다." % (5, wage * 5 * exchange_rate, "원"))
+
+print("I have mock trial tournament tomorrow...")
+
+print("I won two rounds")
